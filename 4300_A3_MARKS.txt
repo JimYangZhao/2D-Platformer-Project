@@ -1,0 +1,50 @@
+Computer Science 4300
+Assignment 3 - 2D Platformer
+
+Student(s): 
+
+Code Style / Modularity / Readability                              05/05 
+
+    - Code has consistent indenting
+    - Functions used where appropriate
+    - Student comments where explanation necessary
+
+Drawing / Animations                                               30/30
+
+    - All entities properly read from level file and drawn    05/05
+    - Animation class implementation                          10/10
+          update() works properly, animations play
+          hasEnded() works properly, explosions end 
+    - Player animations set properly based on state           08/08
+      State set correctly in collision checking system
+      Run animation doesn't play when left/right both held   
+    - Brick Explostion / Question Animation Change working    07/07
+      Explosions have no collision box. Coin spawns above ?
+    
+Game Play Functionality                                            65/65
+
+    - CInput flags used 'properly' within input system        05/05
+    - Player moves properly when correct keys pressed         05/05
+      Player cannot jump while in the air
+    - Player config settings used properly                    05/05
+    - Player collides with ground, runs with no 'snags'       15/15
+    - Player collides into sides of tiles and stops           10/10
+      Player jumps next to stack of tiles with no 'snags'     
+      Player falls next to stack of tiles with no 'snags'
+      Player can't walk off left side of screen
+    - Brick/Question hit from below detection working         05/05
+    - Bullets collide with tiles and kill bricks only         05/05
+      Bullet speed given as multiple of player speed          
+      Bullet movement is in direction player facing
+      Bullets have lifespan of one second
+    - Player respawns after falling in hole or touching pole  05/05
+    - Gravity pulls player downward constantly                05/05
+    - Pause functionality correctly implemented               05/05
+       
+
+Bonus Marks
+
+    - Up to 10% bonus for cool additional functionality
+            
+Max Assignment Mark                                               100/100
+    

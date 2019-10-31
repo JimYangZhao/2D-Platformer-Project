@@ -1,0 +1,142 @@
+﻿  Animation.cpp
+  Assets.cpp
+  Entity.cpp
+  EntityManager.cpp
+  GameEngine.cpp
+  GameState.cpp
+  GameState_Menu.cpp
+  GameState_Play.cpp
+C:\Users\user\Desktop\作业\COMP4300_A3 (1)\src\GameState_Play.cpp(109,1): warning C4996: 'sf::Text::setColor': 被声明为已否决
+C:\libraries\SFML-2.5.1\include\SFML\Graphics\Text.hpp(210): message : 参见“sf::Text::setColor”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039: “_Ttype”: 不是“std::_Tuple_element<_Ty,std::tuple<>>”的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message : 参见“std::_Tuple_element<_Ty,std::tuple<>>”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message : 查看对正在编译的 类 模板 实例化“std::_Tuple_element<_Ty,std::tuple<CState>>”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message : 查看对正在编译的 类 模板 实例化“std::_Tuple_element<_Ty,std::tuple<CGravity,CState>>”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message : 查看对正在编译的 类 模板 实例化“std::_Tuple_element<_Ty,std::tuple<CAnimation,CGravity,CState>>”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message : 查看对正在编译的 类 模板 实例化“std::_Tuple_element<_Ty,std::tuple<CBoundingBox,CAnimation,CGravity,CState>>”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message : 查看对正在编译的 类 模板 实例化“std::_Tuple_element<_Ty,std::tuple<CInput,CBoundingBox,CAnimation,CGravity,CState>>”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message : 查看对正在编译的 类 模板 实例化“std::_Tuple_element<_Ty,std::tuple<CLifeSpan,CInput,CBoundingBox,CAnimation,CGravity,CState>>”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(677): message : 查看对正在编译的 类 模板 实例化“std::_Tuple_element<_Ty,std::tuple<CTransform,CLifeSpan,CInput,CBoundingBox,CAnimation,CGravity,CState>>”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(677): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(677): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(677): message :             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(677): message :         ]
+C:\Users\user\Desktop\作业\COMP4300_A3 (1)\src\Entity.h(56): message : 查看对正在编译的函数 模板 实例化“_Ty &std::get<T,CTransform,CLifeSpan,CInput,CBoundingBox,CAnimation,CGravity,CState>(std::tuple<CTransform,CLifeSpan,CInput,CBoundingBox,CAnimation,CGravity,CState> &) noexcept”的引用
+C:\Users\user\Desktop\作业\COMP4300_A3 (1)\src\Entity.h(56): message :         with
+C:\Users\user\Desktop\作业\COMP4300_A3 (1)\src\Entity.h(56): message :         [
+C:\Users\user\Desktop\作业\COMP4300_A3 (1)\src\Entity.h(56): message :             _Ty=Animation,
+C:\Users\user\Desktop\作业\COMP4300_A3 (1)\src\Entity.h(56): message :             T=Animation
+C:\Users\user\Desktop\作业\COMP4300_A3 (1)\src\Entity.h(56): message :         ]
+C:\Users\user\Desktop\作业\COMP4300_A3 (1)\src\GameState_Play.cpp(521): message : 查看对正在编译的函数 模板 实例化“T &Entity::getComponent<Animation>(void)”的引用
+C:\Users\user\Desktop\作业\COMP4300_A3 (1)\src\GameState_Play.cpp(521): message :         with
+C:\Users\user\Desktop\作业\COMP4300_A3 (1)\src\GameState_Play.cpp(521): message :         [
+C:\Users\user\Desktop\作业\COMP4300_A3 (1)\src\GameState_Play.cpp(521): message :             T=Animation
+C:\Users\user\Desktop\作业\COMP4300_A3 (1)\src\GameState_Play.cpp(521): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,1): error C2061: 语法错误: 标识符“_Ttype”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039: “_Ttype”: 不是“std::_Tuple_element<_Ty,std::tuple<CState>>”的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message : 参见“std::_Tuple_element<_Ty,std::tuple<CState>>”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039: “_Ttype”: 不是“std::_Tuple_element<_Ty,std::tuple<CGravity,CState>>”的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message : 参见“std::_Tuple_element<_Ty,std::tuple<CGravity,CState>>”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039: “_Ttype”: 不是“std::_Tuple_element<_Ty,std::tuple<CAnimation,CGravity,CState>>”的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message : 参见“std::_Tuple_element<_Ty,std::tuple<CAnimation,CGravity,CState>>”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039: “_Ttype”: 不是“std::_Tuple_element<_Ty,std::tuple<CBoundingBox,CAnimation,CGravity,CState>>”的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message : 参见“std::_Tuple_element<_Ty,std::tuple<CBoundingBox,CAnimation,CGravity,CState>>”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039: “_Ttype”: 不是“std::_Tuple_element<_Ty,std::tuple<CInput,CBoundingBox,CAnimation,CGravity,CState>>”的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message : 参见“std::_Tuple_element<_Ty,std::tuple<CInput,CBoundingBox,CAnimation,CGravity,CState>>”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039: “_Ttype”: 不是“std::_Tuple_element<_Ty,std::tuple<CLifeSpan,CInput,CBoundingBox,CAnimation,CGravity,CState>>”的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644,14): error C2039:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message : 参见“std::_Tuple_element<_Ty,std::tuple<CLifeSpan,CInput,CBoundingBox,CAnimation,CGravity,CState>>”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(644): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(677,68): error C2039: “_Ttype”: 不是“std::_Tuple_element<_Ty,std::tuple<CTransform,CLifeSpan,CInput,CBoundingBox,CAnimation,CGravity,CState>>”的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(677,68): error C2039:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(677,68): error C2039:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(677,68): error C2039:             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(677,68): error C2039:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(677): message : 参见“std::_Tuple_element<_Ty,std::tuple<CTransform,CLifeSpan,CInput,CBoundingBox,CAnimation,CGravity,CState>>”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(677): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(677): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(677): message :             _Ty=Animation
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(677): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(677,1): error C2061: 语法错误: 标识符“_Ttype”
+  Physics.cpp
+  main.cpp
+  正在生成代码...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\tuple(678,1): error C2061: 语法错误: 标识符“_Ttype”
