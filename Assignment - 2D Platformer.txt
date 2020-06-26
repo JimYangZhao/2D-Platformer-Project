@@ -1,5 +1,5 @@
-Computer Science 4300
-Assignment 3 - 2D Platformer
+Computer Science Project
+Assignment - 2D Platformer
 
 Student(s): 
 
